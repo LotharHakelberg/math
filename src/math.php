@@ -3,7 +3,7 @@ function add($a,$b){
   return $a+$b;
 }
 
-$server=newSoapServer("math.wsdl");
+$server=new SoapServer("math.wsdl");
 $server->addFunction("add");
 $server->handle();
 ?>
