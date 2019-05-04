@@ -1,6 +1,6 @@
 <?php
-functionadd($a,$b){
-  return$a+$b;
+function add($a,$b){
+  return $a+$b;
 }
 
 $server=newSoapServer("math.wsdl");
